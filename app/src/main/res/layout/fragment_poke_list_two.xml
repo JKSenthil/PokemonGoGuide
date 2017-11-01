@@ -1,0 +1,3834 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/gole"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/pony"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/rapi"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Golem" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Ponyta" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Rapidash" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Rock/Ground" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Fire" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Fire" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Rock Throw\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Tackle\nEmber" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Low Kick\nEmber" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Stone Edge\nEarthquake\nAncient Power\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Flame Wheel\nFire Blast\nFlame Charge\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Heat Wave\nFire Blast\nDrill Run\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/slow"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/slowbro"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/magn"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Slowpoke" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Slowbro" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Magnemite" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water/Psychic" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water/Psychic" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Electric/Steel" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Water Gun\nConfusion" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Water Gun\nConfusion" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Spark\nThunder Shock" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Psychic\nWater Pulse\nPsyshock\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Psychic\nWater Pulse\nIce Beam\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Magnet Bomb\nDischarge\nThunderbolt\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/magneton"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/farf"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/dodu"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Magneton" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Farfetch&apos;d" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Doduo" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Electric/Steel" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Normal/Flying" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Normal/Flying" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Spark\nThunder Shock" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Unknown?\n?" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Peck\nQuick Attack" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Stone Edge\nEarthquake\nAncient Power\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Unknown?\n?\n?\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Swift\nAerial Ace\nDrill Peck\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/dodrio"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/sell"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/dewg"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Dodrio" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Seel" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Dewgong" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Normal/Flying" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water/Ice" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Steel Wing\nFeint Attack" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Water Gun\nIce Shard" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Frost Breath\nIce Shard" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Drill Peck\nAerial Ace\nAir Cutter\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Aqua Jet\nIcy Wind\nAqua Tail\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Aqua Jet\nIcy Wind\nBlizzard\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/grim"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/muk"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/shel"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Grimer" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Muk" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Shellder" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Poison" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Poison" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Mud Slap\nAcid" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Poison Jab\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Ice Shard\nTackle" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Mud Bomb\nSludge Bomb\n\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Sludge Wave\nDark Pulse\n\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Icy Wind\nWater Pulse\nBubblebeam\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/cloy"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/gast"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/haunt"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Cloyster" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Gastly" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Haunter" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water/Ice" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ghost/Poison" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ghost/Poison" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Ice Shard\nFrost Breath" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Lick\nSucker Punch" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Lick\nShadow Claw" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Icy Wind\nBlizzard\nHydro Pump\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Dark Pulse\nSludge Bomb\nOminous Wind\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Dark Pulse\nSludge Bomb\nShadow Ball\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/geng"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/onix"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/drow"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Gengar" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Onix" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Drowzee" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ghost/Poison" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Rock/Ground" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Psychic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Shadow Claw\nSucker Punch" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Rock Throw\nTackle" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Pound\nConfusion" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Dark Pulse\nSludge Wave\nShadow Ball\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Rock Slide\nStone Edge\nIron Head\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Psychic\nPsybeam\nPsyshock\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/hypn"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/crab"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/king"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Hypno" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Krabby" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Kingler" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Psychic" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Confusion\nZen Headbutt" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bubble\nMud Shot" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Metal Claw\nMud Sport" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Psychic\nPsyshock\nShadow Ball\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Vice Grip\nWater Pulse\nBubblebeam\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Vice Grip\nWater Pulse\nX-Scissor\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/volt"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/elec"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/exec"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Voltorb" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Electrode" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Exeggcute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Electric" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Electric" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Grass/Psychic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Tackle\nSpark" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Spark\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Confusion\n" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Signal Beam\nThunder Bolt\nDischarge\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Thunder Bolt\nDischarge\n\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Psychic\nSeed Bomb\nAncient Bomb\n" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/exeg"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/cubo"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/maro"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Exeggutor" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Cubone" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Marowak" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Grass/Psychic" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ground" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ground" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Confusion\nZen Headbutt" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Rock Smash\nMud Slap" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Rock Smash\nMud Slap" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Psychic\nSeed Bomb\nSolar Beam\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bone Club\nDig\nBulldoze\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bone Club\nDig\nEarthquake\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/hitm"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/hitmonchan"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/lick"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Hitmonlee" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Hitmonchan" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Lickitung" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Fighting" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Fighting" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Normal" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Low Kick\nRock Smash" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bullet Punch\nRock Smash" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Lick\nZen Headbutt" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Low Sweep\nStone Edge\nStomp\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Fire Punch\nIce Punch\nThunder Punch\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Hyper Beam\nStomp\nPower Whip\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/koff"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/weez"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/rhyhorn"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Koffing" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Weezing" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Rhyhorn" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Poison" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Poison" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ground/Rock" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Tackle\nAcid" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Tackle\nAcid" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Rock Smash\nMud Slap" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Dark Pulse\nSludge\nSludge Bomb\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Dark Pulse\nShadow Ball\nShadow Ball\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bulldoze\nStomp\nHorn Attack\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/rhydon"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/chan"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/tang"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Rhydon" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Chansey" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Tangela" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ground/Rock" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Normal" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Grass" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Rock Smash\nMud Slap" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Pound\nZen Headbutt" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Vine Whip\n" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Earthquake\nStong Edge\nMega Horn\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Dazzling Gleam\nPsybeam\nPsychic\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Sludge Bomb\nSolar Beam\nPower Whip\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/kang"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/hors"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/sead"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Kangaskhan" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Horsea" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Seadra" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Normal" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Low Kick\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Water Gun\nBubble" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Water Gun\nDragon Breath" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Earthquake\n\n\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bubble Beam\nDragon Pulse\nFlash Cannon\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Hydro Pump\nDragon Pulse\nBlizzard\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/goldeen"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/seaking"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/star"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Goldeen" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Seaking" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Staryu" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Mud Shot\nPeck" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Poison Jab\nPeck" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Water Gun\nQuick Attack" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Aqua Tail\nHorn Attack\nWater Pulse\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Drill Run\nMegahorn\nIcy Wind\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bubblebeam\nPower Gem\nSwift\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/starmie"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/mime"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/scyt"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Starmie" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Mr. Mime" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Scyther" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Water/Psychic" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Psychic/Fairy" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Bug/Flying" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Water Gun\nQuick Attack" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Confusion\nZen Headbutt" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Steel Wing\nFury Cutter" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Hydro Pump\nPower Gem\nPsybeam\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Shadow Ball\nPsybeam\nPsychic\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Bug Buzz\nX-Scissor\nNight Slash\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/gggg"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/electabuzz"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/magmar"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Jynx" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Electabuzz" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Magmar" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Ice/Psychic" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Electric" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="Fire" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nFast Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Pound\nFrost Breath" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Low Kick\nThunder Shock" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Karate Chop\nEmber" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="\nSpecial Attacks:" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Psyshock\nIce Punch\nDraining Kiss\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Thunderbolt\nThunder Punch\nThunder\n" />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textStyle="italic"
+                    android:text="Flamethrower\nFire Punch\nFire Blast\n" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

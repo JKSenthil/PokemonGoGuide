@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_View2"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pokestop" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="In the game map, there will be various blue portals dotted around the map. These portals are called PokeStops, and are based off of various landmarks in the region like parks. \n\nTapping and then spinning these landmarks on your screen can get you between 3 to 9 level dependant items. You will also receive 50 exp for each PokeStop you visit. \n\nYou can also use a Lure Modulator here, which will attract wild Pokemon to the Pokestop for you and nearby players to catch."
+                android:id="@+id/textView5" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

@@ -1,0 +1,51 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_View2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/exp" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Experience is a key aspect of Pokemon Go. By catching new Pokemon and conquering more Gyms, you gain experience which contributes to a future level up. \n\nAs you level higher, you will discover more Pokemon and face Pokemon with higher CP. You will also receive stronger items. You can virtually do anything to gain exp, and using a Lucky Egg will double the exp you gain for 30 minutes.\n\nFrom Serebii.net: "
+                android:id="@+id/textView5" />
+
+            <ImageView
+                android:id="@+id/image_View4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/seribi" >
+            </ImageView>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

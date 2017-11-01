@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_View2"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pokemongym" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Gyms are located in a variety of locations around the world. Gyms are primarily governed by prestige. A gym's prestige goes up or down depending on whether it has been defeated by a challenger. \n\nIf prestige reaches 0, then the team ruling the gym loses control of it, and you and your team can place Pokemon there. If a Gym is under the control of someone from your team, you can fortify the gym by placing your own pokemon in there. You can also train against your own gym.\n"
+                android:id="@+id/textView5" />
+
+            <ImageView
+                android:id="@+id/image_View3"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/gymbattle" >
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Gym battles are drastically different from the Pokemon Video Games. If you tap the screen, your pokemon will use its first attack. While the battle continues, a meter next to your pokemon's name is charged up, and when fully charged will allow you to unleash your pokemon's second move. Simply hold to fire off the secondary attack. You can also swipe to the side to dodge incoming attacks.\n\n When you challenge a gym, you can select up to 6 pokemon. This gives you a great chance to win the gym battle. \n\nGyms can be repeatedly challenged in order to clear the gym. Owning a gym comes with great rewards. Once every 21 hours, if you go to the shop, you will be able to get bonuses, such as Pokecoins and stardust. The more gyms you control, the better the bonus."
+                android:id="@+id/textView6" />
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

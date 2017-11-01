@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/information_id"
+            android:title="Information"
+            ></item>
+        <item
+            android:id="@+id/systemspecs_id"
+            android:title="System Specs"
+            ></item>
+        <item
+            android:id="@+id/pokemonlist_id"
+            android:title="Pokemon List (1-75)"
+            ></item>
+        <item
+            android:id="@+id/pokemonlist2_id"
+            android:title="Pokemon List (76-126)"
+            ></item>
+        <item
+            android:id="@+id/pokemonlist3_id"
+            android:title="Pokemon List (127-151)"
+            ></item>
+        <item
+            android:id="@+id/catching_id"
+            android:title="Catching Pokemon"
+            ></item>
+        <item
+            android:id="@+id/eggs_id"
+            android:title="Eggs"
+            ></item>
+        <item
+            android:id="@+id/teams_id"
+            android:title="Teams"
+            ></item>
+        <item
+            android:id="@+id/gyms_id"
+            android:title="Gyms"
+            ></item>
+        <item
+            android:id="@+id/pokestop_id"
+            android:title="PokeStops"
+            ></item>
+        <item
+            android:id="@+id/level_id"
+            android:title="Exp and Levels"
+            ></item>
+        <item
+            android:id="@+id/cp_id"
+            android:title="CP"
+            ></item>
+        <item
+            android:id="@+id/items_id"
+            android:title="Item List"
+            ></item>
+        <item
+            android:id="@+id/shop_id"
+            android:title="In-Game Shop"
+            ></item>
+    </group>
+
+
+</menu>

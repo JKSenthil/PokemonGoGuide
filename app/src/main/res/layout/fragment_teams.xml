@@ -1,0 +1,44 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_View2"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/teams" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="When you finally hit Level 5, you can start to access Gyms. Before you can, you are told to join one of three teams. Joining the team will determine what colour you go for and allow for you to team up with other local players against the other teams. As of now, there seems to be no other enhancement from the teams perspective"
+            android:id="@+id/textView5" />
+
+
+    </LinearLayout>
+</FrameLayout>
+
+</ScrollView>

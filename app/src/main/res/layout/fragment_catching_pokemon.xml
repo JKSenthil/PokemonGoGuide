@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_View2"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pokegofootprints" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Finding Pokémon is a relatively simple. While in general, you can just walk around and hope for Pokémon to appear, there are a few tricks to get the Pokémon you want. At the bottom right hand corner of the screen is a 'Nearby Pokémon' tab. When you click it, you will bring up a list of the nearest Pokémon, up to 9 of them at once. There are four different icons that can be under each pokemon:\n\n
+0 Footprint - The Pokémon is right on top of you and will appear soon\n\n
+1 Footprint - The Pokémon is within approx. 20 meters\n\n
+2 Footprints - The Pokémon is within approx. 100 meter\n\n
+3 Footprints - The Pokémon is within approx. 1 kilometer\n\nHowever, Pokémon are not always there and new ones will pop up or go away at any time. You can tap a Pokémon in the 'Nearby list' and use it to try finding it for capture.
+Pokémon can typically be found in bits of shaking grass, so if you see a Pokémon is nearby and you don't know where, heading to a piece of grass is a first step.\n\nIf you use an incense, then for the duration of the incense a Pokémon is more likely to appear. The same effect happens for all players if a Lure Module is put in a PokéStop."
+                android:id="@+id/textView5" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="To capture a Pokémon, all you need to do is throw a ball at it. This requires you to aim at the Pokémon and throw the ball. This can miss, however, as the ball can go off in whatever direction you aim it. You can also do trick curve shots by spinning the ball before you throw it. This will give you a small bonus.\n\nWhen you go to catch a Pokémon, when you hold the ball down you will see a circle shrinking and then restarting. This circle can denote how hard the Pokémon is to capture:\n\nGreen - This Pokémon is easy to capture and won't likely break out of the Poké Ball\n\n
+Yellow - This Pokémon is slightly difficult to capture and may break out of the Poké Ball\n\n
+Orange - This Pokémon is moderately difficult to capture and may break out of the Poké Ball\n\n
+Red - This Pokémon is difficult to capture and will likely break out of the Poké Ball\n\nIf you throw the ball when the circle matches the white circle around the Pokémon, you will get a bonus. However, the smaller the circle, the better the chance of capture
+        "
+                android:id="@+id/textView7" />
+
+            </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

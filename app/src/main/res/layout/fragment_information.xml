@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasonsenthil.pokemongoguide.InformationFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pokemon GO Guide"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:textColor="#4969e1"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n\n\n\n\n\nPokemon Go is a smartphone game that came out in 2016 for Android and iOS. The app allows for you to go out and capture Pokemon in the real world! Using GPS location, the game will generate catchable Pokemon!"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwipe to the right to learn more!"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+</FrameLayout>

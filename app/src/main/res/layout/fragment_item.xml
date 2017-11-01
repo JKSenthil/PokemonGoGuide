@@ -1,0 +1,44 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_View2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/seribi2" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Like there are items in the Pokemon Video Games, there exists items in Pokemon Go. These items have a wide range of uses. Several types of pokeballs ensure better chances of catching Pokemon, and different strengths of potions enable you to heal stronger pokemon more efficiently.\n\n Image from Serebii.net"
+                android:id="@+id/textView5" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_View2"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cp" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Different from the traditional 'levels' that Pokemon had in the Video Games, pokemon in Pokemon Go have a 'CP' value that denotes their relative strength.\n\nCP directly effects how much HP and damage that a pokemon does. You can increase a Pokemon's CP by using Stardust and the pokemon's respective candy."
+                android:id="@+id/textView5" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

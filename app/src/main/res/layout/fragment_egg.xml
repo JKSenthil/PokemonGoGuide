@@ -1,0 +1,680 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jasonsenthil.pokemongoguide.TeamsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/image_View2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/eggspoke" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Pokémon Eggs in Pokémon GO and work in a manner similar to the Video Games. Getting Pokémon Eggs is very simple; just go to a PokéStop and you'll have a chance to get a Pokémon Egg."
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="Hatching Eggs is done just like the main games in that you have to walk in order to hatch the egg. Each egg has got a set distance that needs to be traversed before the egg will hatch. You need to have the app open while walking for the distance to count. \n\nThe game will detect if you are going faster than 20 km/hr (like if you are on a car or train), and the distance will not be counted. The game can detect how fast you move due to the GPS.\n\nWhen the egg hatches, you'll get experience for hatching the egg, which isthe distance travelled times 100 so 200, 500 or 1000 XP and, if it's a new Pokémon, you'll get 500 more XP.\n\nYou will also receive a number of candies for the evolution line. This ranges from 10 to 35 candies randomly, based on the CP of the hatched Pokémon."
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="italic"
+                android:text="Pokemon found in 2km eggs: "
+                android:id="@+id/textView8" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/bulb"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/charm"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/squr"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/cate"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/weed"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/pidg"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/ratt"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/spea"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/pika"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/clef"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/jigg"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/zuba"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/geod"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/magi"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="italic"
+                android:text="Pokemon found in 5km eggs: "
+                android:id="@+id/textView11" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/ekan"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/sand"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/nidoranf"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/cate"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/nidoranm"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/vulp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/oddi"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/para"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/venonat"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/digl"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/meot"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/psyd"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/mank"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/grow"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/poly"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/abra"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/mach"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/bell"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/tentcool"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/pony"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/slow"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/magn"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/farf"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/dodu"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/sell"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/grim"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/shel"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/gast"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/drow"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/crab"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/volt"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/exec"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/cubo"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/lick"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/koff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/rhyhorn"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/tang"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/kang"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/hors"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/goldeen"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/star"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/mime"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/taur"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/pory"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="italic"
+                android:text="Pokemon found in 10km eggs: "
+                android:id="@+id/textView13" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/onix"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/hitm"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/hitmonchan"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/chan"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/scyt"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/gggg"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/electabuzz"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/magmar"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/pins"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/lapr" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/eevee"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/oooo"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/kabu"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/aero"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/snor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:src="@drawable/drat"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>
